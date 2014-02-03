@@ -6,9 +6,9 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="git://github.com/sr105" name="rdm"/>
+  <remote fetch="git@github.com:sr105" name="rdm"/>
 
-  <project remote="rdm" revision="master" name="meta-rdm" path="sources/meta-rdm"/>
+  <project remote="rdm" revision="master" name="meta-rdm.git" path="sources/meta-rdm"/>
 
   <project remote="yocto" revision="3cf2d232529c4fd6b58f87ddbf3df9d805e4180f" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="af392c22bf6b563525ede4a81b6755ff1dd2c1c6" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
