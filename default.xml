@@ -9,7 +9,7 @@
   <remote fetch="ssh://git@github.com/sr105" name="rdm"/>
   <remote fetch="ssh://git@github.com/woglinde" name="woglinde"/>
 
-  <project remote="rdm" revision="master" name="meta-rdm.git" path="sources/meta-rdm"/>
+  <project remote="rdm" revision="meta-rdm" name="meta-rdm.git" path="sources/meta-rdm"/>
   <project remote="rdm" revision="meta-rdm-wandboard" name="meta-rdm.git" path="sources/meta-rdm-wandboard"/>
 
   <project remote="yocto" revision="3cf2d232529c4fd6b58f87ddbf3df9d805e4180f" name="poky" path="sources/poky"/>
