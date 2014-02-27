@@ -7,7 +7,7 @@
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="ssh://git@github.com/RealDigitalMedia" name="rdm"/>
-  <remote fetch="ssh://git@github.com/RealDigitalMedia" name="rdm-gstark"/>
+  <remote fetch="ssh://git@github.com/gstark" name="rdm-gstark"/>
   <remote fetch="git://github.com/woglinde" name="woglinde"/>
 
   <project remote="rdm-gstark" revision="meta-rdm" name="meta-rdm.git" path="sources/meta-rdm"/>
