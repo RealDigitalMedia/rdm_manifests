@@ -9,15 +9,15 @@
   <remote fetch="git://github.com/sr105" name="rdm"/>
   <remote fetch="git://github.com/woglinde" name="woglinde"/>
 
-  <project remote="rdm" revision="meta-rdm" name="meta-rdm.git" path="sources/meta-rdm"/>
-  <project remote="rdm" revision="meta-rdm-wandboard" name="meta-rdm.git" path="sources/meta-rdm-wandboard"/>
+  <project remote="rdm" revision="meta-rdm" name="meta-rdm" path="sources/meta-rdm"/>
+  <project remote="rdm" revision="meta-rdm-wandboard" name="meta-rdm" path="sources/meta-rdm-wandboard"/>
 
   <project remote="yocto" revision="3cf2d232529c4fd6b58f87ddbf3df9d805e4180f" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="af392c22bf6b563525ede4a81b6755ff1dd2c1c6" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="oe" revision="191499a2b54d04855284347ce5a067f998646be4" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="rdm" revision="master" name="rdm-base.git" path="sources/base">
+  <project remote="rdm" revision="master" name="rdm-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
