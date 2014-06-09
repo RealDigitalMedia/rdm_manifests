@@ -19,11 +19,9 @@
 
   <project remote="rdm" name="meta-java.git" path="sources/meta-java"/>
 
-  <project remote="rdm" revision="master" name="meta-rdm.git" path="sources/meta-rdm"/>
-
-  <project remote="rdm" name="rdm-base.git" path="sources/base">
-	<copyfile dest="README" src="README"/>
-	<copyfile dest="setup-environment" src="setup-environment"/>
+  <project remote="rdm" revision="master" name="meta-rdm.git" path="sources/meta-rdm">
+	<copyfile dest="README" src="base/README"/>
+	<copyfile dest="setup-environment" src="base/setup-environment"/>
   </project>
 
 </manifest>
